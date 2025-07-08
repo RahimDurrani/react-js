@@ -14,7 +14,7 @@ const Home = () => {
         <div className='  text-3xl font-bold p-10'>
         <h1 className='bg-gradient-to-r from-green-700 to-black bg-clip-text text-transparent'>Welcome to NGEN</h1>
         <h4 className='text-gray-600'>lets Build the Future togather!</h4>
-        <p className=' text-2xl text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta accusantium labore eveniet quod
+        <p className=' text-2xl text-white font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta accusantium labore eveniet quod
           ipsam laudantium quidem nulla eius aspernatur eligendi numquam, id est quae laborum laboriosam? Atque, dolorem
            nostrum.</p>
       </div>

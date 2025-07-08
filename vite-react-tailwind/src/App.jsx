@@ -5,6 +5,7 @@ import Header from './pages/header';
 import Help from './pages/help';
 import About from './pages/About';
 import Home from './pages/Home';
+import Loginpg from './pages/Loginpg';
 const App = () => {
   return (
    
@@ -14,9 +15,11 @@ const App = () => {
    <Header/>
 
       <Routes>
+       
         <Route path="Home" element={<Home />} />     
         <Route path="help" element={<Help />} />
         <Route path="About" element={<About />} />
+         <Route path="Loginpg" element={<Loginpg />} />
       </Routes>
      
    </>
