@@ -4,7 +4,7 @@ const form = () => {
   return (
     <>
     {/* main */}
-    <div className='p-3 flex items-center justify-between'>
+    <div className='p-3 flex items-center justify-between h-[600px]'>
       <div className='  h-64 w-96 gird items-center justify-center p-4 '>
         <div className='flex items-center justify-center text-2xl text-black '>
             <h2>signUp</h2>

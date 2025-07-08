@@ -5,12 +5,14 @@ const Header = () => {
   return (
     <>
       <div className="bg-black text-white h-14 p-10 flex items-center justify-between fixed w-full">
-        <h1 className="text-3xl font-bold">Ngen</h1>
-        <div className="flex gap-6">
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-green-600 to-white bg-clip-text text-transparent">Next Generation PVT LTD</h1>
+        <div className="flex gap-6  p-12">
           <Link to="Home" >Home</Link>
           <Link to="About">About</Link>
           <Link to="help"> Help</Link>
+          <Link className=" h-10 w-24 text-center rounded text-2xl font-bold bg-black text-green-600 border">LogIn</Link>
         </div>
+         
       </div>
     </>
   );
