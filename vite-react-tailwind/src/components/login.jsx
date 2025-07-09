@@ -5,7 +5,7 @@ import { TEInput, TERipple } from "tw-elements-react";
 const login = () => {
   return (
     <>
-       <section className="h-full bg-neutral-200 dark:bg-neutral-100">
+       <section className="h-full bg-neut-200 dark:bg-neutral-100 ">
       <div className="container h-full p-10">
         <div className="g-6 flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200">
           <div className="w-full">
@@ -42,7 +42,7 @@ const login = () => {
                       <div className="mb-12 pb-1 pt-1 text-center">
                    
                           <button
-                            className=" bg-gradient-to-br from-lime-500 via-violet-600 to-green-600 mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
+                            className=" bg-gradient-to-br from-lime-500 via-violet-600 to-green-600  hover:text-black cursor-pointer mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white  "
                             type="button"
                             
                           >

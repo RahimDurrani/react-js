@@ -6,6 +6,7 @@ import Help from './pages/help';
 import About from './pages/About';
 import Home from './pages/Home';
 import Loginpg from './pages/Loginpg';
+import Footer from './components/footer'
 const App = () => {
   return (
    
@@ -20,8 +21,10 @@ const App = () => {
         <Route path="help" element={<Help />} />
         <Route path="About" element={<About />} />
          <Route path="Loginpg" element={<Loginpg />} />
+   
       </Routes>
-     
+    
+     <Footer/>
    </>
 
   );

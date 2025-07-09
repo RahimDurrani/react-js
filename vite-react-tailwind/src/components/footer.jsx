@@ -1,5 +1,7 @@
 import React from 'react'
 import "../main.css"
+import aplg from '../images/apple 2.png'
+import pllg from '../images/playstore.png'
 const footer = () => {
   return (
     <>
@@ -45,7 +47,7 @@ const footer = () => {
       <h2 className ="font-bold text-lg">Get the App</h2>
       {/* <!-- App Store --> */}
       <div class="flex items-center bg-black rounded-2xl px-4 py-3 w-fit text-white cursor-pointer">
-        <img src="images/apple 2.png" alt="Apple" class="w-6 h-6 mr-3" />
+        <img src={aplg} alt="Apple" class="w-6 h-6 mr-3" />
         <div>
           <p className="text-xs">Download on the</p>
           <p className="font-bold text-sm">App Store</p>
@@ -53,7 +55,7 @@ const footer = () => {
       </div>
       {/* <!-- Play Store --> */}
       <div className="flex items-center bg-black rounded-2xl px-4 py-3 w-fit text-white cursor-pointer">
-        <img src="images/playstore.png" alt="Play Store" class="w-6 h-6 mr-3" />
+        <img src={pllg} alt="Play Store" class="w-6 h-6 mr-3" />
         <div>
           <p className="text-xs">Download on the</p>
           <p className="font-bold text-sm">Play Store</p>
